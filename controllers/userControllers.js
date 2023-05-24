@@ -1,6 +1,6 @@
 const bcrypt = require('bcryptjs')
 
-const generateToken = require('../dbConfig').generateToken
+const generateToken = require('../createToken').generateToken
 const db = require('../dbConfig')
 
 module.exports = {
